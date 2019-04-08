@@ -1,4 +1,4 @@
-Live link: https://github.com/gtannous16/Hogwarts-Express
+Live link: https://gtannous16.github.io/Hogwarts-Express/
 
 Objective: Train Schedule Application using Firebase which hosts arrival and departure data
 
