@@ -1,8 +1,8 @@
 body { 
-background-color: firebrick;
+background-color: rgb(148, 7, 7);
 background-repeat: no-repeat;
 font-family: 'Times New Roman', Times, serif;
-color:firebrick;
+color:rgb(148, 7, 7);
 font-size: 16px;
 text-align: center;
 }
@@ -12,12 +12,15 @@ audio{
 }
 
 .form-group{
-    margin:6px;
+    margin:6px;  
 }
 label{
     font-family: sans-serif;
-    color:firebrick;
-    font-size: 16px;
+    color:whitesmoke;
+    background-color:rgb(148, 7, 7);
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
 }
 .panel panel-info{
     margin-left:50px;
@@ -28,31 +31,34 @@ label{
     padding:5px;
 }
 .form-control {
-    border: 2px solid firebrick;
+    border: 2px solid rgb(148, 7, 7);
+}
+.table-responsive{
+    background-color:rgba(233, 193, 92, 0.92);
 }
 .panel {
-    background-image: url("../images/brick.jpg");
+    background-image: url("../images/ticket.jpeg");
     width: 45%;
     text-align: center;
     margin-left: 792px;
 }
 .panel-info>.panel-heading{
     font-family: 'Times New Roman', Times, serif;
-    background-color: firebrick;
-    color: goldenrod;
-    border-color: firebrick;
+    background-color: rgb(148, 7, 7);
+    color: rgba(233, 193, 92, 0.92);
+    border-color:rgb(148, 7, 7);
 }
 .panel-title{
     font-size: 20px;
 }
 .panel-info{
-    border: solid 5px firebrick;
+    border: solid 5pxrgb(148, 7, 7);
     margin-top:0px;
     margin-bottom:0px;
 }
 .btn-primary {
-    background-color:firebrick;
-    border-color:firebrick;
+    background-color:rgb(148, 7, 7);
+    border-color:rgb(148, 7, 7);
 }
 .btn-primary:hover {
     background-color:goldenrod;
@@ -60,23 +66,22 @@ label{
 }
 .panel-footer{
     font-family: 'Times New Roman', Times, serif;
-    color: goldenrod;
-    background-color: firebrick;
+    color: rgba(233, 193, 92, 0.92);
+    background-color: rgb(148, 7, 7);
 }
 h3{
     font-family: 'Times New Roman', Times, serif;
-    color: goldenrod;
-    background-color: firebrick;
+    color: rgba(233, 193, 92, 0.92);
+    background-color: rgb(148, 7, 7);
     font-size:14px;
 }
 h2{
     font-family: 'Times New Roman', Times, serif;
-    color: goldenrod;
-    background-color: firebrick;
+    color:rgba(233, 193, 92, 0.92);
+    background-color: rgb(148, 7, 7);
     font-size: 34px;
 }
 table {
-    font-family: 'HPposter';
     border-collapse: collapse;
     width: 100%;
 }
@@ -85,11 +90,12 @@ th {
     font-weight: bold;
     text-align: center;
 }
+
 header{
     padding:5px;
-    background-color:firebrick;
+    background-color:rgb(148, 7, 7);
 }
 
 .outOfTime {
-    color: rgb(104, 6, 6);
+    color: rgb(245, 35, 35);
 }
