@@ -1,0 +1,95 @@
+body { 
+background-color: firebrick;
+background-repeat: no-repeat;
+font-family: 'Times New Roman', Times, serif;
+color:firebrick;
+font-size: 16px;
+text-align: center;
+}
+audio{
+    height:30px;
+    float: left;
+}
+
+.form-group{
+    margin:6px;
+}
+label{
+    font-family: sans-serif;
+    color:firebrick;
+    font-size: 16px;
+}
+.panel panel-info{
+    margin-left:50px;
+}
+.panel-body{
+    width:80%;
+    margin-left: 50px;
+    padding:5px;
+}
+.form-control {
+    border: 2px solid firebrick;
+}
+.panel {
+    background-image: url("../images/brick.jpg");
+    width: 45%;
+    text-align: center;
+    margin-left: 792px;
+}
+.panel-info>.panel-heading{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: firebrick;
+    color: goldenrod;
+    border-color: firebrick;
+}
+.panel-title{
+    font-size: 20px;
+}
+.panel-info{
+    border: solid 5px firebrick;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.btn-primary {
+    background-color:firebrick;
+    border-color:firebrick;
+}
+.btn-primary:hover {
+    background-color:goldenrod;
+    border-color:goldenrod;
+}
+.panel-footer{
+    font-family: 'Times New Roman', Times, serif;
+    color: goldenrod;
+    background-color: firebrick;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: goldenrod;
+    background-color: firebrick;
+    font-size:14px;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: goldenrod;
+    background-color: firebrick;
+    font-size: 34px;
+}
+table {
+    font-family: 'HPposter';
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+header{
+    padding:5px;
+    background-color:firebrick;
+}
+
+.outOfTime {
+    color: rgb(104, 6, 6);
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="icon" href="./assets/images/favicon.jpg" type="image">
+    <title>Hogwarts Express Train Scheduler</title>
+</head>
+<header>    
+    <audio loop autoplay controls>
+    <source src="assets/audio/harry.mp3" type="audio/mpeg" loop="true">
+    </audio> 
+</header>
+<body background="assets/images/background.jpg">
+
+    <div class="panel panel-info">
+        <div class="panel-heading panel-info">
+            <h2>The Hogwarts Express Train Schedule</h2>
+            <h3 id="current-time">The Current Time Is: </h3>
+        </div>
+        <div class="table-responsive">
+            <table id="train-schedule" class="tablee">
+                <tr>
+                    <th>Train Name</th>
+                    <th>Destination</th>
+                    <th>Frequency (mins.)</th>
+                    <th>First Train Time (24HR)</th>
+                    <th>Minutes Away</th>
+                </tr>
+            </table>
+        </div>
+        <div class="panel-footer">(all times are in 24-hour military time format)</div>
+    </div>
+
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h2 class="panel-title">Add a Train</h2>
+        </div>
+        <div class="panel-body">    
+            <div class="form-group">
+                <label class="input-group-trains">Train Name</label>
+                <input type="text" id="add-train" class="form-control" placeholder="Train" aria-describedby="add-train">
+            </div>
+            <div class="form-group">
+                <label class="input-group-trains">Destination</label>
+                <input type="text" id="add-destination" class="form-control" placeholder="Destination" aria-describedby="add-destination">
+            </div>
+            <div class="form-group">
+                <label class="input-group-trains">Frequency</label>
+                <input type="text" id="add-freq" class="form-control" placeholder="Frequency" aria-describedby="add-freq">
+            </div>
+            <div class="form-group">
+                <label class="input-group-trains">First Train Time</label>
+                <input type="text" id="add-1st-train" class="form-control" placeholder="First Train Time (HH:mm)" aria-describedby="add-1st-train">
+            </div>
+                <button class="btn btn-primary" id="new-train">Add Train</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script list start -->
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+        <!-- Latest compiled and minified JavaScript for Bootstrap -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- JavaScript app logic file -->
+        <script src="assets/javascript/app.js"></script>
+        <!-- moment.js -->
+        <script type="text/javascript" src="assets/javascript/moment.js"></script>
+    <!-- Script list end -->
+</body>
+<footer>
+
+</footer>
+</html>
